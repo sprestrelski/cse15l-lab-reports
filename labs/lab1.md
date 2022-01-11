@@ -6,7 +6,8 @@
 ## Installing VScode
 This tutorial uses VScode, which you can install at https://code.visualstudio.com/. Download and run the installer for your respective system. I'm using Windows, so this tutorial will cover Windows systems.    
 
-<img src = "https://github.com/sprestrelski/cse15l-lab-reports/blob/3e1ddf22d71b6188d079558a7f50f240dff60cc7/labs/images/VSCode.PNG" height = "300" /> 
+![VSCode download page](images/VSCode.PNG)
+
 
 ## Remotely Connecting
 First, you'll need to install OpenSSH. From the [Windows documentation](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse),  
@@ -15,7 +16,8 @@ First, you'll need to install OpenSSH. From the [Windows documentation](https://
 >     - Find OpenSSH Client, then click Install
 >     - Find OpenSSH Server , then click Install
 
-<img src = "https://github.com/sprestrelski/cse15l-lab-reports/blob/3e1ddf22d71b6188d079558a7f50f240dff60cc7/labs/images/OpenSSH.PNG" height = "300" /> 
+![Open SSH in Apps & Features of Windows](images/OpenSSH.PNG)
+
 
 Then, you'll need to look up your course specific account. This can be found at the following website: https://sdacs.ucsd.edu/~icc/index.php.  
 
