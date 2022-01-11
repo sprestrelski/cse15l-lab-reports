@@ -4,9 +4,9 @@
 **Lab report requirements**: https://ucsd-cse15l-w22.github.io/week/week2/  
 
 ## Installing VScode
-This tutorial uses VScode, which you can install at https://code.visualstudio.com/. Download and run the installer for your respective system. I'm using Windows, so this tutorial will cover Windows systems.  
-![Picture of the VSCode Download][images/VSCode.PNG]
+This tutorial uses VScode, which you can install at https://code.visualstudio.com/. Download and run the installer for your respective system. I'm using Windows, so this tutorial will cover Windows systems.    
 
+<img src = "https://github.com/sprestrelski/cse15l-lab-reports/blob/3e1ddf22d71b6188d079558a7f50f240dff60cc7/labs/images/VSCode.PNG" height = "300" /> 
 
 ## Remotely Connecting
 First, you'll need to install OpenSSH. From the [Windows documentation](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse),  
@@ -15,7 +15,7 @@ First, you'll need to install OpenSSH. From the [Windows documentation](https://
 >     - Find OpenSSH Client, then click Install
 >     - Find OpenSSH Server , then click Install
 
-![OpenSSH under optional features][images/OpenSSH.PNG]
+<img src = "https://github.com/sprestrelski/cse15l-lab-reports/blob/3e1ddf22d71b6188d079558a7f50f240dff60cc7/labs/images/OpenSSH.PNG" height = "300" /> 
 
 Then, you'll need to look up your course specific account. This can be found at the following website: https://sdacs.ucsd.edu/~icc/index.php.  
 
@@ -28,7 +28,7 @@ $ ssh cs15lwi22aaa@ieng6.ucsd.edu
 Try some of the following commands on the remote server: `cd`, `ls`, `pwd`, `mkdir`, `cp`  
 
 Here's one that I tried:  
-![Trying to read a file][images/RunSomeCommands.PNG]
+![Trying to read a file](images/RunSomeCommands.PNG)
 
 
 ## Moving Files with `scp`
@@ -40,7 +40,7 @@ $ scp sampleFile.java cs15lwi22aaa@ieng6.ucsd.edu:~/
 
 The file should now be on the server, where you can run it on an ieng computer.  
 
-![Example of using SCP][images/SCP.PNG]
+![Example of using SCP](images/SCP.PNG)
 
 
 ## Setting an SSH Key
@@ -77,9 +77,14 @@ $ ssh-add ~\.ssh\id_rsa.pub
 
 Copy the public key `id_rsa.pub` to your `.ssh` directory on the server. You should now be able to log in without entering a password.
 
-![SSH login example without a password][images/SSHKey.PNG]
+![SSH login example without a password](images/SSHKey.PNG)
 
 
 ## Optimizing Remote Running
 When `ssh`-ing into the remote server, you can add commands onto the same line to run it directly on the server, then exit. For example,  
-![Optimizing remote running login example][images/OptimizingRunning.PNG]
+![Optimizing remote running login example](images/OptimizingRemote.PNG)
+
+To run multiple commands, separate them using `;`  
+```bash
+$ ssh cs15lwi22aaa@ieng6.ucsd.edu javac WhereAmI.java java; java WhereAmI
+```
