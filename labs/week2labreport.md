@@ -86,7 +86,7 @@ Copy the public key `id_rsa.pub` to your `.ssh` directory on the server. You sho
 When `ssh`-ing into the remote server, you can add commands onto the same line to run it directly on the server, then exit. For example,  
 ![Optimizing remote running login example](images/OptimizingRemote.PNG)
 
-To run multiple commands, separate them using `;`  
+To run multiple commands, separate them using `;` and place them inside quotation marks.  
 ```bash
-$ ssh cs15lwi22aaa@ieng6.ucsd.edu javac WhereAmI.java java; java WhereAmI
+$ ssh cs15lwi22aaa@ieng6.ucsd.edu "javac WhereAmI.java java; java WhereAmI"
 ```
