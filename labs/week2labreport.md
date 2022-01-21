@@ -1,10 +1,10 @@
 # Week 2 Lab Report
 **Objective**: How do you log into a course specific account on `ieng6`?  
 **Due date**: Friday, January 15, 2022  
-**Lab report requirements**: https://ucsd-cse15l-w22.github.io/week/week2/  
+**Lab report requirements**: [https://ucsd-cse15l-w22.github.io/week/week2/](https://ucsd-cse15l-w22.github.io/week/week2/)
 
 ## Installing VScode
-This tutorial uses VScode, which you can install at https://code.visualstudio.com/. Download and run the installer for your respective system. I'm using Windows, so this tutorial will cover Windows systems.    
+This tutorial uses VScode, which you can install at [https://code.visualstudio.com/](https://code.visualstudio.com/). Download and run the installer for your respective system. I'm using Windows, so this tutorial will cover Windows systems.    
 
 ![VSCode download page](images/VSCode.PNG)
 
@@ -19,7 +19,7 @@ First, you'll need to install OpenSSH. From the [Windows documentation](https://
 ![Open SSH in Apps & Features of Windows](images/OpenSSH.PNG)
 
 
-Then, you'll need to look up your course specific account. This can be found at the following website: https://sdacs.ucsd.edu/~icc/index.php.  
+Then, you'll need to look up your course specific account. This can be found at the following website: [https://sdacs.ucsd.edu/~icc/index.php](https://sdacs.ucsd.edu/~icc/index.php).  
 
 Once you know your course account and have reset the [password](https://password.ucsd.edu) to it, open a terminal in VSCode and run the following, except replace `aaa` with your course-specific account. Enter your password when prompted.
 ```bash
@@ -30,7 +30,7 @@ $ ssh cs15lwi22aaa@ieng6.ucsd.edu
 Try some of the following commands on the remote server: `cd`, `ls`, `pwd`, `mkdir`, `cp`  
 
 Here's one that I tried:  
-![Trying to read a file](images/RunSomeCommands.PNG)
+![Trying to read a file](images/RunSomeCommands.PNG)    
 
 
 ## Moving Files with `scp`
@@ -89,4 +89,10 @@ When `ssh`-ing into the remote server, you can add commands onto the same line t
 To run multiple commands, separate them using `;` and place them inside quotation marks.  
 ```bash
 $ ssh cs15lwi22aaa@ieng6.ucsd.edu "javac WhereAmI.java java; java WhereAmI"
+```
+
+As for efficiency, the best process I came up with is to run the commands that you plan on running often, then use the up arrow to cycle through them. For this lab, this would be javac/java, scp, and ssh commands. I was able to save my file `WhereAmI.java` to my local machine, copy over, and run the file on the server in 11.7 seconds using 5 keystrokes.  
+```
+up + up + enter (sends scp command)
+up + enter (sends ssh command)
 ```
