@@ -48,10 +48,30 @@ By checking if there's an exclamation point before the first open bracket (then 
 Link to test file: [test-file7.md](https://github.com/sprestrelski/markdown-parse/blob/main/provided-tests/test-file7.md)  
 
 ### Symptom  
-Infinite loop occurs. I couldn't get it to give me an error like the previous code change though, which also produced an infinite loop. sorry :(
+Infinite loop occurs. I couldn't get it to give me an error like the previous code change though, which also produced an infinite loop. To visualize the infinite loop, I added a line in `MarkdownParse.java` that printed the currently accessed index, which stayed at 1.
 ```java
 $ java .\markdown-parse\MarkdownParse.java .\provided-tests\test-file7.md
-
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+...
 ```
 
 ### Relationship  
