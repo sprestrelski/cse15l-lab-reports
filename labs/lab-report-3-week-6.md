@@ -16,7 +16,7 @@ The `config` file goes into the `.ssh` folder. To make the file using the Window
 Then, I edited the file in Notepad. I decided to keep the hostname "ieng6" rather than choose my own because it was short and corresponded to the server I was logging into, `ieng6.ucsd.edu`.    
 ![](images/SSHConfigFile.png)
 
-Now, when I used the SSH Command to log into my ieng6 account, it's a very quick process.  
+Now, when I use the SSH Command to log into my ieng6 account, it becomes a very quick process. Instead of typing out my full course username, I can do `ssh [hostname]` to log into the server.  
 ![Using a configuration file to log into ieng6](images/SSHieng6.PNG)  
 
 
