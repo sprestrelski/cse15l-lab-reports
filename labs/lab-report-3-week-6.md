@@ -1,7 +1,7 @@
 # Week 6 Lab Report
 **Objective**: How do you streamline `ssh` configuration?  
 **Due date**: Friday, February 11, 2022  
-**Lab report requirements**: [https://ucsd-cse15l-w22.github.io/week/week4/](https://ucsd-cse15l-w22.github.io/week/week6/)  
+**Lab report requirements**: [https://ucsd-cse15l-w22.github.io/week/week6/](https://ucsd-cse15l-w22.github.io/week/week6/)  
 
 To streamline the process of `ssh`-ing into a server, we can make a configuration file. The contents of my `.ssh/config file` are as follows:
 ```
