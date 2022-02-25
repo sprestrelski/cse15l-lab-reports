@@ -9,6 +9,7 @@ Course website: [https://ucsd-cse15l-w22.github.io](https://ucsd-cse15l-w22.gith
 |[Week 2 Lab Report](https://sprestrelski.github.io/cse15l-lab-reports/labs/week2labreport) | 01/15/2022 |
 |[Week 4 Lab Report](https://sprestrelski.github.io/cse15l-lab-reports/labs/week4labreport) | 01/28/2022 |
 |[Week 6 Lab Report](https://sprestrelski.github.io/cse15l-lab-reports/labs/lab-report-3-week-6) | 2/11/2022 |
+|[Week 8 Lab Report](https://sprestrelski.github.io/cse15l-lab-reports/labs/lab-report-4-week-8) | 2/25/2022 |
 |[Markdown Parse](https://github.com/sprestrelski/markdown-parse)| Course examples|
 
 ![cat](labs/images/cat.png)
