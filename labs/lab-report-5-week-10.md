@@ -1,5 +1,5 @@
 # Week 10 Lab Report
-**Objective**: How does our MarkdownParse compare to a standard Markdown parser, and how can we improve our own parser?
+**Objective**: How does our MarkdownParse compare to a standard Markdown parser, and how can we improve our own parser?  
 **Due date**: Friday, March 11, 2022  
 **Lab report requirements**: [https://ucsd-cse15l-w22.github.io/week/week10/](https://ucsd-cse15l-w22.github.io/week/week10/)  
   
