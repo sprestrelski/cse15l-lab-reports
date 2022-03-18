@@ -6,8 +6,8 @@ Course website: [https://ucsd-cse15l-w22.github.io](https://ucsd-cse15l-w22.gith
 
 | Lab  | Due date   |
 |------------|------------|
-|[Week 2 Lab Report](https://sprestrelski.github.io/cse15l-lab-reports/labs/week2labreport) | 01/15/2022 |
-|[Week 4 Lab Report](https://sprestrelski.github.io/cse15l-lab-reports/labs/week4labreport) | 01/28/2022 |
+|[Week 2 Lab Report](https://sprestrelski.github.io/cse15l-lab-reports/labs/lab-report-1-week-2) | 01/15/2022 |
+|[Week 4 Lab Report](https://sprestrelski.github.io/cse15l-lab-reports/labs/lab-report-2-week-4) | 01/28/2022 |
 |[Week 6 Lab Report](https://sprestrelski.github.io/cse15l-lab-reports/labs/lab-report-3-week-6) | 2/11/2022 |
 |[Week 8 Lab Report](https://sprestrelski.github.io/cse15l-lab-reports/labs/lab-report-4-week-8) | 2/25/2022 |
 |[Week 10 Lab Report](https://sprestrelski.github.io/cse15l-lab-reports/labs/lab-report-5-week-10) | 3/11/2022 |

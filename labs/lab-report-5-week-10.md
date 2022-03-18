@@ -31,8 +31,17 @@ Expected output: `[/bar*]`
 The problem is that this link is formatted in a way not considered in our parser. It provides the URL within the parantheses as well as a title for the link inside quotation marks. It also has escaped asterisks.  
 
 To fix our code, we would need to
-1. Look for escaped characters.
+1. Look for escaped characters within the parentheses.
 2. Look for quotation marks (single or double) after a space and URL.
+
+Here is the code that should be changed (lines 65-68):
+```java
+int openParen = markdown.indexOf("(", nextCloseBracket);
+
+// The close paren we need may not be the next one in the file
+int closeParen = findCloseParen(markdown, openParen);
+```
+
 
 ## 194.md
 ```
@@ -53,3 +62,7 @@ To fix our code, we would need to
 3. Look for the word after `\]]:` and make that the URL.
 4. Ignore that the closing parentheses do not actually encase the link.
 
+Here is the code that should be changed (line 64):
+```java
+int nextCloseBracket = markdown.indexOf("]", nextOpenBracket);
+```
